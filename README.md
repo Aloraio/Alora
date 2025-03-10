@@ -1,36 +1,7 @@
 # Alora
+
 This is an implementation of the Alora protocol
-# Anoma
 
-This is an implementation of the Anoma protocol, whose specs can be
-found [here](https://specs.anoma.net/latest).
-
-## Docs
-
-- [Contributors documentation](https://anoma.github.io/anoma/readme.html)
-- [Specification](https://specs.anoma.net/latest/)
-- Developer Docs (Coming Soon™)
-- User Docs (Coming Soon™)
-
-## Following Development
-
-Work is merged into `base` on a bi-weekly (once every two weeks)
-schedule.
-
-Development can be followed in multiple ways:
-
-1. [Issues are put into the project overview](https://github.com/orgs/anoma/projects/19)
-   - This is a good way to see what work is assigned and the various
-     views into how goals are being met
-2. [What's Cooking on Anoma](https://github.com/orgs/anoma/projects/20 "A good view on how topics are progressing throughout a cycle")
-3. [Research Forums](https://research.anoma.net/)
-   - This is good for seeing discussions on the direction of Anoma
-   - [The architecture posts](https://research.anoma.net/tags/c/protocol-design/25/architecture)
-     in particular are a practical vision for how the codebase's
-     architecture will evolve. Around two of these get posted per week
-4. [Issues](https://github.com/anoma/anoma/issues) and [pull requests](https://github.com/anoma/anoma/pulls)
-   - This is good for viewing new issues and work coming in, but the
-     other views are typically a better way to view this
 
 ## Running pre-built binaries
 ### Release Dependencies
@@ -44,7 +15,7 @@ To run a working Anoma Node the following dependencies are required:
     * Mac OS X and Linux: use package manager
     * Windows: not required
 ### Running
-Download the [Anoma release](https://github.com/anoma/anoma/releases) for your platform, extract it, and run `bin/anoma`.
+Download the [Alora release]([https://github.com/anoma/anoma/releases](https://github.com/Aloraio/Alora)) for your platform, extract it, and run `bin/anoma`.
 ## Compilation from sources
 ### Build Dependencies
 
@@ -90,14 +61,14 @@ apt install cmake
 ---
 ### Compiling and Running
 
-To install the dependencies as well as Anoma run:
+To install the dependencies as well as Alora run:
 
 ```bash
 mix deps.get
 mix compile
 ```
 
-To start an Anoma instance run one of these:
+To start an Alora instance run one of these:
 
 ```bash
 iex -S mix # starts an interactive shell
@@ -113,9 +84,9 @@ Further see the Known issues section if you encounter an issue.
 ## Docker images
 To work with Docker images, do the following:
 1. Install [Docker](https://docs.docker.com/engine/install/), this is necessary for both building and running Docker images
-2. Build the Anoma image from the repository root: `docker build -t <IMAGE> .`
+2. Build the Alora image from the repository root: `docker build -t <IMAGE> .`
     * `<IMAGE>` is your chosen image name
-4. Run the Anoma image: `docker run -it --network host <IMAGE> <SUBCOMMAND>`
+4. Run the Alora image: `docker run -it --network host <IMAGE> <SUBCOMMAND>`
     * `<IMAGE>` is the name of Anoma Docker image to be run
     * `<SUBCOMMAND>`is interpreted by the Anoma binary
     * `--network host` will enable connections from the host
