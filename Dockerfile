@@ -18,7 +18,7 @@ COPY documentation documentation
 COPY params params
 # The Hex package manager is required for Mix to fetch dependencies
 RUN mix local.hex --force
-# rebar3 is required to compile Anoma dependencies
+# rebar3 is required to compile Alora dependencies
 RUN mix local.rebar --force
 # Protocol Buffers compiler is also required
 RUN mix escript.install hex protobuf --force
