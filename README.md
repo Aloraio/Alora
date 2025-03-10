@@ -15,7 +15,7 @@ To run a working Alora Node the following dependencies are required:
     * Mac OS X and Linux: use package manager
     * Windows: not required
 ### Running
-Download the [Alora release]([https://github.com/anoma/anoma/releases](https://github.com/Aloraio/Alora)) for your platform, extract it, and run `bin/anoma`.
+Download the [Alora release]([https://github.com/anoma/anoma/releases](https://github.com/Aloraio/Alora)) for your platform, extract it, and run `bin/alora`.
 ## Compilation from sources
 ### Build Dependencies
 
