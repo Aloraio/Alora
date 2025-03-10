@@ -25,7 +25,7 @@ RUN mix escript.install hex protobuf --force
 # Add the Protocol Buffers compiler to the path
 ENV PATH="/root/.mix/escripts:${PATH}"
 RUN mix clean --deps
-# Get all the dependencies required to build Anoma
+# Get all the dependencies required to build Alora
 RUN mix deps.get
 # Finally, build an Anoma release
 RUN mix release
