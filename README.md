@@ -5,7 +5,7 @@ This is an implementation of the Alora protocol
 
 ## Running pre-built binaries
 ### Release Dependencies
-To run a working Anoma Node the following dependencies are required:
+To run a working Alora Node the following dependencies are required:
 
 1. Mac OS X Development Environment:
     * Install Apple Command Line Developer Tools: `xcode-select --install`
